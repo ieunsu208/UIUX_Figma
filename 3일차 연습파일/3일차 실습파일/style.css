@@ -1,0 +1,31 @@
+.sct01 {
+    background-color: #bd3a3a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.sct-box {
+    background-color: #d9832e;
+    width: 250px; height: 600px;
+}
+.sct02 {
+    background-color: #e8de1a;
+    height: 100vh;
+}
+.sct03 {
+    background-color: #2ec928;
+    height: 100vh;
+}
+.sct04 {
+    background-color: #3ae8e8;
+    height: 100vh;
+}
+.sct05 {
+    background-color: #1b2287;
+    height: 100vh;
+}
+.sct06 {
+    background-color: #f7b0f3;
+    height: 100vh;
+}
