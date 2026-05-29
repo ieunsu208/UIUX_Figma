@@ -1,0 +1,29 @@
+/* 상단바 */
+header {
+    height: 86px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    background-color: aqua;
+}
+h1 {
+    background-color: pink;
+}
+.use-box {
+    background-color: antiquewhite;
+}
+
+/* 메인 컨텐츠 */
+main {
+    height: 400vh;
+    background-color: #cfcfcf;
+}
+
+/* 하단바 */
+footer {
+    height: 68px;
+    background-color: #a5a5a5;
+}
