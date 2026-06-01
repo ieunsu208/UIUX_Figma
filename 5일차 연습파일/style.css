@@ -8,8 +8,8 @@ header {
 }
 nav {
     background-color: antiquewhite;
-    /* display: flex; */
-    /* gap: 28px; */
+    display: flex;
+    gap: 28px;
 }
 .nav-box01 {
     width: 92px;
@@ -43,9 +43,43 @@ nav {
 }
 h1 {
     background-color: aqua;
+    width: 228px;
+    height: 25px;
 }
 .use-box {
     background-color: pink;
+    display: flex;
+    gap: 32px;
+}
+.use-box01 {
+    width: 68px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+.use-box02 {
+    width: 92px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+.use-box03 {
+    width: 58px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+.use-box04 {
+    width: 84px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
+}
+.use-box05 {
+    width: 36px;
+    height: 12px;
+    border-radius: 2px;
+    background: #CFCFCF;
 }
 
 /* 메인 컨텐츠 */
