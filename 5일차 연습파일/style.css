@@ -41,11 +41,13 @@ nav {
     border-radius: 2px;
     background: #CFCFCF;
 }
+
 h1 {
     background-color: aqua;
     width: 228px;
     height: 25px;
 }
+
 .use-box {
     background-color: pink;
     display: flex;
