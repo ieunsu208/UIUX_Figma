@@ -5,6 +5,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 64px;
 }
 nav {
     height: 12px;
@@ -42,6 +43,9 @@ h1 {
     background-color: aqua;
     width: 228px;
     height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .user-menu {
