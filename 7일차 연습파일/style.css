@@ -26,6 +26,17 @@ main {
 .sct01-right {
     background-color: green;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sct01-rbox01 {
+    flex-grow: 1;
+    background-color: pink;
+}
+.sct01-rbox02 {
+    flex-grow: 1;
+    background-color: orange;
 }
 
 /* 하단바 */
