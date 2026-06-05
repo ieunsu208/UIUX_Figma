@@ -49,21 +49,35 @@ section {
     gap: 25px;
     justify-content: flex-end;
 }
+.sct02-img-box01, .sct02-img-box02 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 .sct02-i-box {
     width: 532px;
     height: 335px;
-
+}
+.sct02-i-textbox01, .sct02-i-textbox02 {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
 }
 .sct02-i-box01 {
-    background-color: aqua;
+    background-color: #bdbdbd;
     border-radius: 30px;
 }
-.sct02-i01-title {
+.sct02-i01-title, .sct02-i02-title {
     background-color: #bdbdbd;
     width: 57px;
     height: 32px;
 }
+.sct02-i01-text, .sct02-i02-text {
+    background-color: #bdbdbd;
+    width: 372px;
+    height: 57px;
+}
 .sct02-i-box02 {
-    background-color: blue;
+    background-color: #bdbdbd;
     border-radius: 30px;
 }
