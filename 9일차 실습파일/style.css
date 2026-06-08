@@ -1,5 +1,5 @@
 .grid {
-    background: #7D7D7D;
+    background: #EDEDED;
     height: 678px;
     width: 950px;
     margin-left: auto; margin-right: auto;
@@ -12,12 +12,12 @@
     gap: 30px;
 }
 .sct01-top-box {
-    background: #EFF0EF;
+    background: #FFE0AF;
     height: 340px;
     width: 100%;
 }
 .sct01-bottom-box {
-    background: #C5C5C5;
+    background: #FF7D2C;
     width: 100%;
     /* height: 100%; */
     flex-grow: 1;
@@ -25,17 +25,22 @@
     gap: 20px;
 }
 .sct01-b-left {
-    background: #45CC55;
+    background: #BBF0C1;
     width: 250px;
 }
 .sct01-b-right {
-    background: #671212;
+    background: #1D197E;
     flex-grow: 1;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 .sct01-b-right01, .sct01-b-right02 {
-    background: #E35E5E;
     width: 313px;
     flex-grow: 1;
+}
+.sct01-b-right01 {
+    background: #9DF5F8;
+}
+.sct01-b-right02 {
+    background: #809DFE;
 }
