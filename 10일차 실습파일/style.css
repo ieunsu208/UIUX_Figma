@@ -1,0 +1,67 @@
+/* 상단바 */
+
+/* 메인 컨텐츠 */
+h2 {
+    color: #000;
+    font-size: 60px;
+    font-weight: 200; 
+    line-height: 60px; 
+    letter-spacing: -2px;
+}
+
+.w200 {
+    /* padding-left: 60px; padding-right: 60px; */
+    padding: 100px 60px;
+}
+.w200-01 {
+    padding: 100px 0;
+}
+
+/* main-sl-title */
+.main-sl-title {
+    display: flex;
+}
+.sl-title-left {
+    background: #E34646;
+    flex-grow: 1;
+    height: 700px;
+}
+.sl-title-right {
+    background: #4BB82A;
+    flex-grow: 1;
+    height: 700px;
+}
+
+/* swiper-continer-main02 */
+.swiper-continer-main02 {
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main02-title {
+    display: flex;
+    justify-content: space-between;
+}
+.continer-main02 {
+    display: flex;
+    gap: 5px;
+}
+.main02-box {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    flex-grow: 1;
+}
+.main02-img {
+    background: #81C7FA;
+    height: 402px;
+}
+.main02-all-text-box {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* 하단바 */
