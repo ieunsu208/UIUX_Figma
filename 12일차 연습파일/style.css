@@ -1,3 +1,6 @@
+body {
+    font-family: "Inter", sans-serif;
+}
 .sct-03 {
     padding: 64px 40px;
     display: flex;
@@ -24,20 +27,28 @@
     width: 488px;
 }
 .all-text-box {
-    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.title {
+.main-title {
     font-size: 30px;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 34px;
     letter-spacing: -1.5px;
 }
 .sub-title {
     font-size: 14px;
-font-style: normal;
-font-weight: 100;
-line-height: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 18px;
+}
+.text-box {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
 }
 
 /* lsit02-box */
@@ -51,7 +62,18 @@ line-height: 18px;
     height: 449px;
     /* width: 337px; */
 }
-
+.title02-box {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 34px;
+}
+.date-box {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
 
 /* list03-box */
 .right-box {
@@ -77,4 +99,16 @@ line-height: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.main-title03-box {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.sub-title03-box {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
 }

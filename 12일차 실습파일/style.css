@@ -1,0 +1,11 @@
+.sct01 {
+    display: flex;
+    gap: 80px;
+}
+.list01 {
+    flex-grow: 1;
+}
+.img01 {
+    background: #A1958E;
+    height: 302px;
+}
