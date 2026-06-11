@@ -1,0 +1,80 @@
+.sct-03 {
+    padding: 64px 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.left-box {
+    display: flex;
+    gap: 64px;
+}
+
+.left-list01-box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.list01-box {
+    display: flex;
+    gap: 20px;
+}
+.img01-box {
+    background: #FF3131;
+    height: 349px;
+    width: 488px;
+}
+.all-text-box {
+    font-family: "Inter";
+}
+.title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 34px;
+    letter-spacing: -1.5px;
+}
+.sub-title {
+    font-size: 14px;
+font-style: normal;
+font-weight: 100;
+line-height: 18px;
+}
+
+/* lsit02-box */
+.left-list02-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img02-box {
+    background: #7EDE4B;
+    height: 449px;
+    /* width: 337px; */
+}
+
+
+/* list03-box */
+.right-box {
+    flex-grow: 1;
+    
+}
+.list03-box {
+    display: flex;
+    gap: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #000;
+}
+.list03-box01 {
+    border-bottom: 1px solid #000;
+}
+.img03-box {
+    background: #1F3F7C;
+    width: 126px;
+    height: 168px;
+}
+.all-text03-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
