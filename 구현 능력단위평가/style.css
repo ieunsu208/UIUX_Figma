@@ -1,11 +1,11 @@
-/* ---- bestellers-sct ---- */
+/* ---- 섹션 ---- */
 .bestellers-sct {
     padding: 124px 80px;
     display: flex;
     flex-direction: column;
 }
 
-/* ---- nav ---- */
+/* ---- 네비게이션 ---- */
 .nav {
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@
     line-height: 24px;
 }
 
-/* ---- all-list ---- */
+/* ---- 리스트 ---- */
 .all-list {
     display: flex;
     gap: 40px;
@@ -34,10 +34,12 @@
 .list {
     flex-grow: 1;
 }
+/* 이미지 박스 */
 .img {
-    background-color: #EBEBEB;
+    background: #EBEBEB;
     height: 410px;
 }
+/* 텍스트 박스 */
 .title-body01 {
     padding: 40px 0 42px 0;
     font-size: 16px;
@@ -47,6 +49,7 @@
 }
 .title-body02 {
     padding-bottom: 40px;
+    border-bottom: 1px solid #E1DED9;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -69,6 +72,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: 17px;
+    text-decoration-line: underline;
+text-decoration-style: solid;
 }
 .box-60ml {
     font-size: 14px;
@@ -84,7 +89,7 @@
     padding: 10px 30px;
     display: flex;
     justify-content: center;
-    border: 1px solid rgba(0, 0, 0, 0.10);
+    border: 1px solid #E1DED9;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
