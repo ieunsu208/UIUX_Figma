@@ -1,0 +1,41 @@
+/* ---- 상단바 ---- */
+header {
+    border: 1px solid red;
+}
+
+/* ---- 메인 컨텐츠 ---- */
+main {
+    border: 1px solid red;
+}
+
+/* bestsellers-section / 베스트셀러 섹션 */
+.bestsellers-section {
+    border: 5px solid orange;
+    /* width: 1920px; 가로 스크롤 활성화되기 때문에 고정 하지 않아야 한다 */
+    padding: 142px 80px;
+}
+
+/* ul-nav / 섹션안에 상단 부분 */
+.ul-nav {
+    border: 1px solid green;
+    padding-top: 65px; padding-bottom: 65px;
+    /* 이렇게 적어야 같이 협업하는 사람들이 편하게 볼 수 있다 */
+    display: flex;
+    justify-content: space-between;
+}
+.section-title {
+    border: 1px solid blue;
+}
+.view-all {
+    border: 1px solid blue;
+}
+
+/* amp-swiper / 섹션안에 하단 부분 */
+.amp-swiper {
+    border: 1px solid green;
+}
+
+/* ---- 하단바 ---- */
+footer {
+    border: 1px solid red;
+}
