@@ -1,1 +1,96 @@
 /* relative나 body를 기준으로 크기 상속(%) */
+
+/* -- pupup / 팝업 -- */
+.pupup::before{
+    content: "";
+    width: 30px;
+}
+.pupup {
+    background-color: #E8E8E8;
+    padding-top: 12px; padding-bottom: 12px;
+    color: #000;
+    /* text-align: center; */
+    font-size: 10px;
+    line-height: 15px; /* 145.631% */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px; padding-right: 20px;
+}
+.pupup::after {
+    content: "X";
+    font-size: 12px;
+    cursor: pointer;
+    width: 30px;
+    text-align: right;
+}
+
+/* -- top-bar / 탑바 -- */
+.top-bar {
+    padding-top: 16px; padding-bottom: 16px;
+    padding-right: 20px; padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    position: relative;
+}
+/* menu01 / 메뉴01 */
+.menu01 {
+    width: 388px;
+}
+.menu01-ul {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    /* 기본값으로 height이 0으로 되어 있기 때문에 100%로 바꾸기
+    (hug상태로 되어 있기 때문에 fill로 바꾸기 위해 height 100%을 줌) */
+    height: 100%;
+}
+.m01-item {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px; /* 136.364% */
+}
+
+/* menu02 / 메뉴02 */
+.menu02 {
+    background-color: orange;
+    opacity: 0.3;
+    font-size: 50px; font-weight: 700;
+    /* 구조가 없다 */
+    display: none;
+    position: absolute;
+    width: 100%;
+    /* top: 100%; => top-bar높이값 */
+    left: 0; top: 100%;
+}
+/* 이벤트 코드는 아래에 작성한다. -> 로딩 오류 조심 */
+/* .menu01에 마우스를 올리면 .menu02이 나타난다 */
+.menu01:hover > .menu02 {
+    display: block;
+}
+
+/* logo-box / 로고 */
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+/* user-menu / 사용자 메뉴 */
+.user-menu {
+    width: 388px;
+    display: flex;
+    justify-content: end;
+    /* align-items: stretch; */
+}
+.user-box-ul {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    /* height: auto; (100%) */
+}
+.user-item {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px; /* 136.364% */
+}
+
