@@ -51,29 +51,92 @@
 
 /* menu02 / 2차 메뉴 */
 .menu02 {
-    background-color: rgb(188, 204, 185);
+    /* background-color: rgb(188, 204, 185); */
     font-size: 20px;
     /* display: none; */
-    height: 0; transition: 0.6s;
+    height: 0px; transition: 0.6s;
     overflow: hidden;
     position: absolute;
     top: 100%; left: 0; right: 0;
     border-top: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
 }
 .menu01:hover > .menu02 {
     /* display: block; */
     height: 400px;
     border-top: 1px solid rgba(0, 0, 0, 1);
 }
+.menu02 > .container {
+    /* background-color: rgb(216, 216, 216); */
+    width: 1620px;
+    height: 100%;
+    display: flex;
+}
+.mn02-img-box {
+    /* background-color: rgb(255, 229, 229); */
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mn02-img-item {
+    /* background-color:  orange; */
+    width: 300px; height: 300px;
+}
+.mn02-img-item > a {height: 100%;}
+.mn02-img-box img {
+    object-fit: cover;
+    width: 100%; height: 100%;
+}
+.mn02-nav {
+    /* background-color: rgb(206, 206, 255); */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.mn02-ul {
+    display: flex;
+    gap: 50px;
+}
+.mn02-item {
+    position: relative;
+}
+.mn02-item>a {
+    font-size: 60px; font-weight: 700;
+    color: #333;
+}
+.mn02-item:hover > a {
+    color: tomato;
+    text-decoration: underline;
+}
 
-/* logo / 로고 */
-/* .logo {
-    border: 1px solid orange;
-} */
+/* mn03-nav / 3차 메뉴 */
+.mn03-nav {
+    /* border: 1px solid red; */
+    position: absolute;
+    /* display: flex; */
+    width: 100%; top: calc(100% + 10px);
+    justify-content: space-between;
+    display: none;
+}
+.mn03-item:hover a {
+    color: skyblue;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.mn03-item > a {
+    font-size: 24px; font-weight: 400;
+    color: #4e4e4e;
+}
+
+.mn02-item:hover > .mn03-nav {
+    display: flex;
+}
+
 
 /* user-menu / 사용자 메뉴 */
 .user-menu {
-    /* border: 1px solid orange; */
     width: 388px;
 }
 .user-menu-ul {
