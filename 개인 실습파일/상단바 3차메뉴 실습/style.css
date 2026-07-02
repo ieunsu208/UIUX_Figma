@@ -62,6 +62,8 @@
     height: 0px;
     transition: 0.5s;
     border-top: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
 }
 .menu01:hover > .menu02 {
     height: 400px;
@@ -71,7 +73,6 @@
     display: flex;
     height: 100%;
     width: 1620px;
-    justify-self: center;
 }
 
 /* mn02-img-box / 2차 메뉴 이미지 */
