@@ -1,0 +1,43 @@
+header {
+    border: 1px solid #000;
+}
+
+/* top-bar / 탑바 */
+.top-bar {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px; padding-right: 100px;
+    height: 116px;
+}
+
+/* logo-box / 로고 */
+.logo-box {
+    border: 1px solid orange;
+    align-self: center;
+}
+.logo-box img {
+    width: 220px;
+}
+
+/* menu01 / 메뉴01 */
+.menu01 {
+    border: 1px solid orange;
+}
+.menu01 > ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+/* user-box / 사용자 메뉴 */
+.user-box{
+    border: 1px solid orange;
+    align-self: center;
+}
+.user-box > ul {
+    display: flex;
+}
+.user-item03 > a {
+    display: flex;
+}
