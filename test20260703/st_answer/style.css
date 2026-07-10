@@ -1,19 +1,17 @@
-header {
-    border: 1px solid #000;
-}
-
 /* top-bar / 탑바 */
 .top-bar {
-    border: 1px solid red;
     display: flex;
+    background: linear-gradient(90deg, #f7f7f7 0%, #9fc5df 62%, #82add0 100%);
     justify-content: space-between;
     padding-left: 100px; padding-right: 100px;
     height: 116px;
 }
+.top-bar:hover {
+    background: linear-gradient(90deg, #ffd3de 0%, #d6efff 62%, #e9c9ff 100%);
+}
 
 /* logo-box / 로고 */
 .logo-box {
-    border: 1px solid orange;
     align-self: center;
 }
 .logo-box img {
@@ -21,23 +19,49 @@ header {
 }
 
 /* menu01 / 메뉴01 */
-.menu01 {
-    border: 1px solid orange;
-}
+
 .menu01 > ul {
     display: flex;
+    gap: 50px;
     height: 100%;
     align-items: center;
+}
+.m01-item:hover {
+    text-decoration: underline;
+}
+.m01-item > a {
+    font-size: 15px; font-weight: 500;
+    color: #333;
 }
 
 /* user-box / 사용자 메뉴 */
 .user-box{
-    border: 1px solid orange;
     align-self: center;
 }
 .user-box > ul {
     display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.user-item01 > a {
+    font-size: 27px; font-weight: 700;
+}
+.user-item02 {
+    border: 1px solid #333;
+    padding: 8px 16px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.user-item02:hover {
+    background-color: bisque;
+    border: 1px solid sandybrown;
+    color: sandybrown;
+}
+.user-item02 > a {
+    font-size: 15px;
 }
 .user-item03 > a {
     display: flex;
+    font-size: 15px;
+    align-items: center;
 }
