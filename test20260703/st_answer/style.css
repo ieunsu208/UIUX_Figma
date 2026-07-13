@@ -53,9 +53,9 @@
     transition: 0.3s;
 }
 .user-item02:hover {
-    background-color: bisque;
-    border: 1px solid sandybrown;
-    color: sandybrown;
+    background-color: greenyellow;
+    border: 1px solid rgb(11, 48, 255);
+    color: rgb(19, 19, 19);
 }
 .user-item02 > a {
     font-size: 15px;
